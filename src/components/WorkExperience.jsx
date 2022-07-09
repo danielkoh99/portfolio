@@ -40,7 +40,7 @@ export default function WorkExperience() {
           flexBasis={{ base: "100%", md: "40%", xl: "30%" }}
           display="flex"
           userSelect="none"
-          margin={1}
+          margin={2}
           flexDir="column"
           wordBreak="break-word"
           border="2px"

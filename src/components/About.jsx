@@ -38,7 +38,7 @@ export default function About() {
         fontSize={{ base: 30, md: 40 }}
         fontWeight={600}
       >
-        <AnimatedText text="All about me" start={loading} delay={1} />
+        <AnimatedText text="About me" start={loading} delay={3} />
       </Box>
       {aboutText.map((text, index) => (
         <Box
@@ -46,7 +46,7 @@ export default function About() {
           flexBasis={{ base: "100%", md: "40%", xl: "30%" }}
           display="flex"
           userSelect="none"
-          margin={1}
+          margin={2}
           flexDir="column"
           wordBreak="break-word"
           border="2px"

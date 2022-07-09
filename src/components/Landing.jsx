@@ -8,6 +8,7 @@ import {
   Icon,
   Text,
   SkeletonCircle,
+  Button,
 } from "@chakra-ui/react";
 import Background from "./Background";
 import MyImage from "../assets/me.png";
@@ -46,7 +47,25 @@ export default function Landing({ data, token }) {
           >
             <AnimatedText text="Hi I'm Daniel" start={loading} />
             {loading ? (
-              <Image boxSize="sm" flex={1} src={MyImage} alt="Daniel Kohari" />
+              <>
+                <Image
+                  boxSize="sm"
+                  flex={1}
+                  src={MyImage}
+                  alt="Daniel Kohari"
+                />
+
+                <Button size="lg">
+                  <Link
+                    _hover={{
+                      textDecoration: "none",
+                    }}
+                    href="mailto: kohari.daniel@gmail.com"
+                  >
+                    Contact me
+                  </Link>
+                </Button>
+              </>
             ) : (
               <SkeletonCircle size={{ base: 60, md: 80 }} />
             )}

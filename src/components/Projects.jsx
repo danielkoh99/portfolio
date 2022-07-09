@@ -47,7 +47,7 @@ export default function Projects(props) {
         alignItems="left"
         flexDirection="column"
         bg="#334766"
-        margin={1}
+        margin={2}
         color="white"
       >
         <Heading

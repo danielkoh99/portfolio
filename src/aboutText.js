@@ -93,4 +93,11 @@ export const aboutText = [
     header: "Extras about me:",
     listItems: ["Hungarian nationality", "Can speak Croatian, and Hungarian"],
   },
+  {
+    header: "Education",
+    listItems: [
+      "Studied Computer Science at KEA, in Copenhagen",
+      "Studied Economics at Business College of Budapest",
+    ],
+  },
 ];
