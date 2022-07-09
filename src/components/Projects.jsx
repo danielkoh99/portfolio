@@ -55,6 +55,7 @@ export default function Projects(props) {
           size="md"
           align={{ base: "center", sm: "left" }}
           alignItems="baseline"
+          marginBottom={3}
         >
           {repo.name}
         </Heading>
