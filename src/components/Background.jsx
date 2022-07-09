@@ -10,7 +10,6 @@ export default function Background({ options }) {
     <Particles
       id="tsparticles"
       init={particlesInit}
-      loaded={particlesLoaded}
       height="100vh"
       style={{ height: "100vh", width: "100vw" }}
       options={options}
