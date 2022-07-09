@@ -74,7 +74,7 @@ export default function About() {
               fontWeight={500}
               marginBottom={4}
             >
-              <Heading as="h4" size="md" marginBottom={2}>
+              <Heading as="h4" size="md" marginBottom={3}>
                 {text.header}
               </Heading>
               <UnorderedList>
