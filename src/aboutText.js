@@ -69,6 +69,8 @@ export const aboutText = [
       "Postman",
       "Selenium",
       "Pupeteer",
+      "Koa.js",
+      "Express.js",
       "and many more",
     ],
   },
