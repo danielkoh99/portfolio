@@ -70,6 +70,7 @@ export const aboutText = [
       "Selenium",
       "Pupeteer",
       "Koa.js",
+      "Tailwind CSS"
       "TypeScript",
       "Express.js",
       "and many more",
