@@ -73,6 +73,7 @@ export const aboutText = [
       "Tailwind CSS"
       "TypeScript",
       "Express.js",
+      "Google Tag Manager",
       "and many more",
     ],
   },
