@@ -70,7 +70,7 @@ export const aboutText = [
       "Selenium",
       "Pupeteer",
       "Koa.js",
-      "Tailwind CSS"
+      "Tailwind CSS",
       "TypeScript",
       "Express.js",
       "Google Tag Manager",
