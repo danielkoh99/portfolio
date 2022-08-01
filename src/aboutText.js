@@ -57,6 +57,7 @@ export const aboutText = [
     header: "Tools used",
     listItems: [
       "Git/GitHub",
+      "GraphQL",
       "Firebase",
       "MongoDB",
       "RealmDB",
